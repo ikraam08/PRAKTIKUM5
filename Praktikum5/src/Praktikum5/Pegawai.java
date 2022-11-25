@@ -4,14 +4,20 @@ public class Pegawai {
     private String name;
     private double gajipokok;
     // overload Constructor
-    public Pegawai (String name, double gajipokok){
+    public Pegawai (){
         this.name = name;
         this.gajipokok = gajipokok;
     }
 
-
+    public void setName(String name) {
+        this.name = name;
+    }
     public String getName() {
         return name;
+    }
+
+    public void setGajipokok(double gajipokok) {
+        this.gajipokok = gajipokok;
     }
 
     public double getGajipokok() {

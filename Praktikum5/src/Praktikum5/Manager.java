@@ -3,9 +3,12 @@ package Praktikum5;
 public class Manager extends Pegawai{
     private double tunjangan;
 
-    public Manager (String name, double gajipokok) {
-        super(name, gajipokok);
-        this.tunjangan = 2000000;
+    public Manager () {
+        super();
+    }
+
+    public void setTunjangan(double tunjangan) {
+        this.tunjangan = tunjangan;
     }
 
     public double getTunjangan() {

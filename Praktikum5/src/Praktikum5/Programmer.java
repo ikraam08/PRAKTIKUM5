@@ -3,9 +3,12 @@ package Praktikum5;
 public class Programmer extends Pegawai{
     private double bonus;
 
-    public Programmer(String name, double gajipokok) {
-        super(name, gajipokok);
-        this.bonus = 1000000;
+    public Programmer() {
+        super();
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
     }
 
     public double getBonus() {

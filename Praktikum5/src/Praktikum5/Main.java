@@ -2,11 +2,19 @@ package Praktikum5;
 
 public class Main {
     public static void main(String[] args) {
-        Pegawai pegawai1 = new Pegawai("ISAC", 3500000);
-        Pegawai manager1 = new Manager("isa", 6000000);
-        Pegawai programmer = new Programmer("ALBERT", 4500000);
-        pegawai1.display();
-        manager1.display();
+        Pegawai pegawai = new Pegawai();
+        Manager manager = new Manager();
+        Programmer programmer = new Programmer();
+        pegawai.setName("Isac");
+        manager.setName("Newton");
+        programmer.setName("Albert");
+        pegawai.setGajipokok(3500000);
+        manager.setGajipokok(7000000);
+        programmer.setGajipokok(6500000);
+        manager.setTunjangan(2000000);
+        programmer.setBonus(500000);
+        pegawai.display();
+        manager.display();
         programmer.display();
     }
 }
