@@ -6,8 +6,8 @@ public class Pegawai {
     private double gajipokok;
 
     // overload Constructor
-    public Pegawai (){
-        this.name = name;
+    public Pegawai (String name ,double gajipokok){
+        this.name = name ;
         this.gajipokok = gajipokok;
     }
     //SETTER

@@ -3,9 +3,9 @@ package Praktikum5;
 public class Main {
 
     public static void main(String[] args) {
-        Pegawai pegawai = new Pegawai();
-        Manager manager = new Manager();
-        Programmer programmer = new Programmer();
+        Pegawai pegawai = new Pegawai("einsten",5000000);
+        Manager manager = new Manager("rere",3000000);
+        Programmer programmer = new Programmer("roro",4000000);
         pegawai.setName("Isac");
         manager.setName("Newton");
         programmer.setName("Albert");

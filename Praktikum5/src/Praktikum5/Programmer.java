@@ -4,8 +4,8 @@ public class Programmer extends Pegawai{
     //Atribute
     private double bonus;
     // Overloading constructor inherite superclass
-    public Programmer() {
-        super();
+    public Programmer(String name, double gajipokok) {
+        super(name,gajipokok);
     }
     //SETTER
     public void setBonus(double bonus) {

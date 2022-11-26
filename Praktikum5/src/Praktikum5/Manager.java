@@ -1,12 +1,14 @@
 package Praktikum5;
 
+import javax.xml.namespace.QName;
+
 public class Manager extends Pegawai{
     // Atribut
     private double tunjangan;
 
     //Overloading constructor inherite superclass
-    public Manager () {
-        super();
+    public Manager (String name, double gajipokok) {
+        super(name,gajipokok);
     }
 
     //SETTER
