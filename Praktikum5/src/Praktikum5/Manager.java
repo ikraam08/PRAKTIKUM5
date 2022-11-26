@@ -4,7 +4,6 @@ public class Manager extends Pegawai{
     // Atribut
     private double tunjangan;
 
-
     //Overloading constructor inherite superclass
     public Manager () {
         super();

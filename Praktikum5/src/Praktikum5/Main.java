@@ -1,7 +1,7 @@
 package Praktikum5;
 
 public class Main {
-    // call methode
+
     public static void main(String[] args) {
         Pegawai pegawai = new Pegawai();
         Manager manager = new Manager();
