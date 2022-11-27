@@ -20,7 +20,7 @@ public class Pegawai {
   private double gajipokok;
 
   // overload Constructor
-  public Pegawai (){
+  public Pegawai (String name,double gajipokok){
     this.name = name;
     this.gajipokok = gajipokok;
   }
@@ -62,8 +62,8 @@ public class Manager extends Pegawai{
   private double tunjangan;
 
   //Overloading constructor inherite superclass
-  public Manager () {
-    super();
+  public Manager (String name , double gajipokok) {
+    super(name,gajipokok);
   }
 
   //SETTER
@@ -96,8 +96,8 @@ public class Programmer extends Pegawai{
   //Atribute
   private double bonus;
   // Overloading constructor inherite superclass
-  public Programmer() {
-    super();
+  public Programmer(String name, double gajipokok) {
+    super(name,gajipokok);
   }
   //SETTER
   public void setBonus(double bonus) {
@@ -126,7 +126,7 @@ package Praktikum5;
 public class Main {
 
   public static void main(String[] args) {
-    Pegawai pegawai = new Pegawai();
+    Pegawai pegawai = new Pegawai("");
     Manager manager = new Manager();
     Programmer programmer = new Programmer();
     pegawai.setName("Isac");
